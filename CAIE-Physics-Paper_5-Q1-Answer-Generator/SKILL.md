@@ -1,5 +1,5 @@
 ---
-name: CAIE-Physics-Paper_5-Q1-Answer-Generator
+name: caie-physics-paper-5-q1-answer-generator-improved
 description: >
   Generates full-mark exam answers for CAIE A-Level Physics 9702 Paper 5 Question 1 (experimental planning questions).
   Use this skill whenever the user provides a Paper 5 Q1 planning question — whether as raw question text or structured JSON —
@@ -51,13 +51,13 @@ Describe the apparatus as a bulleted list of labelled components. The examiner w
 
 - **Mechanical** (oscillations, falling/rolling objects, springs): object in correct position, support/clamp/string/pulley, measurement instruments positioned correctly.
 - **Electrical** (circuits, coils, capacitors): complete circuit with correct symbols, power supply, switch, ammeter in series, voltmeter in parallel, variable resistor where needed.
-- **Thermal** (heating, cooling): container with liquid/object, heater, thermometer, insulation.
+- **Thermal** (heating, cooling): container with liquid/object, heater, thermometer/temperature sensor, insulation or lid, stirring method when a liquid is used.
 - **Sound/waves** (resonance, standing waves): loudspeaker + signal generator, microphone + oscilloscope or CRO, tube/rod correctly positioned.
-- **Magnetic**: calibrated Hall probe positioned at the point of interest, free to rotate to find the maximum reading.
+- **Magnetic**: object/magnet arrangement that physically works. Put Hall-probe B measurement and magnetic-field creation method in Additional details unless the question-specific M-points require them as part of the diagram or measurement method.
 
 ### M2–M4 — Measurement methods
 
-For each symbol in the relationship — and for any quantity derived from a measurement — state the instrument and method. Use this lookup:
+For M2–M4, state the instrument and method for the core measured quantities: the IV, DV, and supporting quantities that are naturally part of the main procedure. Do not exhaustively determine every symbol from the relationship here; remaining controls, precision techniques, and separate determinations belong in Section 4. Use this lookup:
 
 | Quantity | Instrument | Notes |
 |----------|-----------|-------|
@@ -66,26 +66,25 @@ For each symbol in the relationship — and for any quantity derived from a meas
 | Mass | top-pan balance | |
 | Time (slow, > 1 s) | stopwatch | Time n oscillations or n revolutions (n ≥ 5), divide |
 | Time (fast, ms) | storage oscilloscope or data logger | |
-| Temperature | thermometer (digital or liquid-in-glass) | |
+| Temperature | thermometer / temperature sensor + data logger | For an absolute thermodynamic temperature, convert from Celsius using `T / K = θ / °C + 273`. For a temperature rise or difference (`Δθ`, `TC - TR`), measure initial and final temperatures; the numerical difference is the same in K and °C. |
 | Voltage / EMF | voltmeter or oscilloscope (amplitude × y-gain) | Connect in parallel |
 | Current | ammeter | Connect in series |
 | Frequency | oscilloscope (period from time-base, f = 1/T) or frequency meter | |
-| Speed | light gate + interrupt length (diameter of object), or v² = 2gh from a release height | |
+| Speed | light gate connected to timer / data logger + interrupt length (card width or object diameter), or v² = 2gh from a release height | For one light gate, attach a card if needed and use `v = interrupt length / time`. For two light gates, use separation / transit time when appropriate. |
 | Angle | protractor | |
 | Magnetic flux density B | calibrated Hall probe rotated for maximum reading | |
 | Force | newton meter / spring balance | |
 | Atmospheric pressure | barometer or manometer | |
 
-**If a quantity in the relationship is not directly measurable, say how it is computed:**
+**If a core method quantity is not directly measurable, say how it is computed:**
 - Area A: from diameter d → `A = πd²/4`; or from length × breadth.
 - Radius r: from diameter d → `r = d/2`.
 - Density ρ: `ρ = m/V`; volume from dimensions or displacement.
 - Power P: `P = VI`.
 - Resistance S or R: ohmmeter, or from V/I.
-- Spring constant k: separate experiment — hang known masses, plot F against extension, k = gradient.
 - Frequency f: `f = 1/T` from oscilloscope or `f = n/t` for slow rotation.
 
-Treat **separate-experiment determinations of physical constants** (k, ρ, S, R) as legitimate M-points when those constants appear in the analysis formulas — leaving them undetermined is a common loss of marks.
+Do not put **separate-experiment determinations** such as spring constant `k`, capacitance `C`, specific heat capacity `c`, or density `ρ` in M2–M4 by default. These are usually detail-pool items; add them in Section 4.2 unless the question-specific mark scheme explicitly requires them as a method point.
 
 ---
 
@@ -248,12 +247,14 @@ Every symbol in the relationship that is not the IV, DV, primary control, or uni
 
 ### 4.2 One detail per unknown / physical constant in the formula
 
-If the gradient or intercept formula contains a physical constant like `k`, `ρ`, `S`, `R`, then that constant needs to be determined **by a separate experiment**, otherwise the analysis cannot produce a numerical answer. The mark scheme rewards this explicitly.
+If the gradient or intercept formula contains a physical constant like `k`, `ρ`, `S`, `R`, `C`, or `c`, then that constant needs to be determined **by a separate experiment**, otherwise the analysis cannot produce a numerical answer. Treat this as a detail-pool item unless the question-specific mark scheme explicitly puts it in M2–M4.
 
 Templates:
 - `Determine spring constant k in a separate experiment: hang known masses, plot force against extension, k = gradient.`
 - `Determine density ρ separately: measure mass on a balance, compute volume from dimensions, ρ = m/V.`
 - `Determine resistance S using an ohmmeter, or from V/I in a separate circuit.`
+- `Determine capacitance C separately: discharge through a known resistor and record V against t or I against t.`
+- `Determine specific heat capacity c separately: heat the object electrically and use c = ΔE/(mΔθ), with ΔE from a joulemeter or IVt.`
 - `Determine the atmospheric pressure P with a barometer.`
 
 This is one of the largest single sources of pool-mark improvement and is easy to forget.
@@ -265,9 +266,13 @@ For each measurement listed in M2–M4, pair it with a precision/accuracy techni
 - Diameter / thickness: `Repeat measurements of diameter at different positions and average.`
 - Oscillation period: `Time n oscillations (n ≥ 5) and divide by n.` + `Use a fiducial mark / pointer to mark the equilibrium position.`
 - Steady-state condition: `Wait for oscillations / readings to become steady before timing.`
+- Temperature measurement: when the context is heating/cooling, `Measure initial and final temperatures`; for liquids, `stir for uniform temperature` and keep the heater/object fully submerged; for cooling solids, `wait until the solid is uniformly heated before cooling`; use insulation/lid to reduce heat loss, and use several temperature sensors and average when surface/room temperatures are involved.
+- Capacitor / stored charge: when plates or capacitors are charged before measurement, show a charging circuit or switches; fully discharge the capacitor between trials. If `C` appears in the formula, add its separate determination using Section 4.2, not M2–M4.
 - Visual reading: `Use a set square or plumb line to avoid parallax / ensure verticality.`
 - Hall probe: `Rotate the Hall probe until the reading is maximum.` and `Measure in opposite directions and average.`
-- Light gate: `Use the diameter of the ball as the interrupt length` (or fixed card width).
+- Magnetic field: if the context says a sheet/object is placed in a magnetic field but no source is specified, add `Use a pair of magnets, a horseshoe magnet, or a pair of coils connected to a d.c. supply to create a field perpendicular to the motion/area.`
+- Light gate: when speed is measured at a point, show the light gate at that point connected to a timer or data logger; use `the diameter of the ball` or `a fixed card width` as the interrupt length, then calculate speed from interrupt length / time.
+- Release consistency: for falling, sliding, trolley, pulley, or oscillation-release experiments, keep the initial displacement, release height, or separation fixed with a fiducial mark / pin / clamped-rule position, or `hold with a set square and move it away without pushing`.
 - Frequency from oscilloscope: `Measure the period from the time-base and compute f = 1/T.`
 - Slow rotation: `Time n revolutions and compute f = n/t.`
 
@@ -278,8 +283,10 @@ For each control variable listed in P2 or 4.1, say *mechanically* how it is held
 - Voltage / current constant: `Adjust the variable resistor (rheostat) until the voltmeter / ammeter reads the chosen value before each measurement.`
 - Distance / separation constant: `Tape, clamp, or use a fixed marker / pin to hold the object in place.`
 - Initial frequency: `Use a fixed d.c. supply voltage and rheostat setting before disconnecting the motor.`
+- Initial displacement / release position: `Use a fiducial marker, vertical pin, clamped rule mark, or set square so the object starts from the same displacement and is released without a push.`
 - Geometry: `Check the separation at multiple points along the length to ensure parallel arrangement.`
-- Temperature: `Stir the liquid and wait until the reading stabilises.`
+- Temperature: `Keep the same initial temperature, stir the liquid and wait until the reading stabilises; keep the heater/object fully submerged; reduce heat loss with insulation or a lid.`
+- Magnetic field: `Keep the same magnet/coil current and fixed separation from the object; clamp magnets or coils so B and field geometry do not change.`
 
 ### 4.5 Repeat-and-average + safety + practical tips
 
@@ -303,7 +310,7 @@ Optional practical tips when they fit:
 
 Before finalising the answer, run through this short audit on the pool section:
 - Did I add a control statement for **every** symbol in the relationship other than IV, DV, and universal constants? If not, add the missing ones.
-- Did I add a separate-experiment determination for **every** physical constant (k, ρ, S, R, atmospheric P) appearing in the gradient/intercept formulas? If not, add them.
+- Did I add a separate-experiment determination for **every** physical constant (k, ρ, S, R, C, c, atmospheric P) appearing in the gradient/intercept formulas? If not, add them.
 - Did I pair each measurement with a precision technique? If not, add them.
 - Did I include repeat-and-average and at least one safety precaution? If not, add them.
 
@@ -328,7 +335,6 @@ Labelled diagram of workable experiment including:
 Measure [variable 1] using [instrument]. [Precision technique.]
 Measure [variable 2] using [instrument]. [Precision technique.]
 [Derived calculations: "Calculate r = d/2.", "A = πd²/4.", etc.]
-[Separate-experiment determinations for k, ρ, S, etc. as needed.]
 
 Plot a graph of [clean DV-function] against [clean IV-function].
 Relationship is valid if a straight line [optionally "passing through the origin" for 1-unknown cases] is produced.
@@ -368,4 +374,4 @@ Run this 4-line audit silently. If any line fails, fix the answer before returni
 1. **Y-axis purity:** The LHS in "Plot a graph of [LHS] against [RHS]" contains only the DV (or a pure function of it — `1/v²`, `T²`, `lg(v²)`, `ln f`, …). No controlled constant. No unknown constant.
 2. **Validity shape-only:** For 1-unknown through-origin cases, A2 says `"a straight line passing through the origin"`. For 2-unknown cases, A2 says `"a straight line"` and nothing more — no "y-intercept", no "with intercept = …", no "positive intercept". The intercept expression is consumed inside A3/A4, never re-stated in A2.
 3. **Unknown formulas are isolated:** A3 (and A4) give each unknown as `unknown = (expression in gradient, intercept, and known measurables)`, not as the gradient/intercept expressions themselves.
-4. **Pool breadth:** The detail bullets (excluding safety) number at least 6, and include at minimum: a control for every remaining symbol, a separate-experiment determination for every physical constant in the formulas, repeat-and-average, and at least one measurement precision technique.
+4. **Pool breadth:** The detail bullets (excluding safety) number at least 6, and include at minimum: a control for every remaining symbol, a separate-experiment determination for every physical constant in the formulas, repeat-and-average, and at least one measurement precision technique. For matching contexts, check thermal uniformity, Hall probe / magnetic-field creation, release consistency, and light-gate timer details.
