@@ -1,0 +1,1136 @@
+{
+  "dataset_name": "caie_9702_physics_paper5_q1_2025_deduplicated",
+  "subject": "CAIE A Level Physics 9702",
+  "paper": "Paper 5",
+  "question_scope": "Question 1 only",
+  "year_scope": [
+    2025
+  ],
+  "deduplicated": true,
+  "deduplication_notes": [
+    {
+      "canonical_sample_id": "9702_s25_qp_51",
+      "duplicate_question_papers": [
+        "9702_s25_qp_53.pdf"
+      ],
+      "duplicate_mark_schemes": [
+        "9702_s25_ms_53.pdf"
+      ],
+      "note": "May/June 2025 variants 51 and 53 have the same Question 1 planning task and are kept once."
+    },
+    {
+      "canonical_sample_id": "9702_w25_qp_51",
+      "duplicate_question_papers": [
+        "9702_w25_qp_53.pdf"
+      ],
+      "duplicate_mark_schemes": [
+        "9702_w25_ms_53.pdf"
+      ],
+      "note": "October/November 2025 variants 51 and 53 have the same Question 1 planning task and are kept once."
+    }
+  ],
+  "total_unique_samples": 7,
+  "samples": [
+    {
+      "sample_id": "9702_m25_qp_52",
+      "subject": "CAIE A Level Physics 9702",
+      "paper": "Paper 5",
+      "series": "February/March",
+      "year": 2025,
+      "paper_variant": "52",
+      "question_number": 1,
+      "marks": 15,
+      "source_files": {
+        "question_paper": "9702_m25_qp_52.pdf",
+        "mark_scheme": "9702_m25_ms_52.pdf"
+      },
+      "question": {
+        "raw_question_text": "Fig. 1.1 shows two identical cylindrical metal conductors P and Q, each of length L and cross-sectional area A. The conductors are placed parallel to each other. The perpendicular distance from the midpoint of P to point X is p. The perpendicular distance from the midpoint of Q to point X is q. The two conductors are electrically connected in parallel. This parallel combination is connected in series to a power supply and a resistor. The potential difference V between the ends of P is the same as the potential difference between the ends of Q. The magnetic flux density at X due to the currents in the conductors is B. It is suggested that B is related to p by the relationship B = YAV / (Lp) + YZAV / (Lq), where Y and Z are constants. Plan a laboratory experiment to test the relationship between B and p. Draw a diagram showing the arrangement of your equipment. Explain how the results could be used to determine values for Y and Z. In your plan you should include: the procedure to be followed, the measurements to be taken, the control of variables, the analysis of the data, any safety precautions to be taken.",
+        "experiment_context": "magnetic flux density at a point due to two parallel current-carrying cylindrical conductors",
+        "given_relationship": "B = YAV / (Lp) + YZAV / (Lq)",
+        "unknown_constants": [
+          "Y",
+          "Z"
+        ],
+        "focus_points_from_question": [
+          "procedure to be followed",
+          "measurements to be taken",
+          "control of variables",
+          "analysis of the data",
+          "any safety precautions to be taken"
+        ]
+      },
+      "mark_scheme": {
+        "defining_problem": [
+          {
+            "mp_id": "P1",
+            "type": "required",
+            "point_text": "p is the independent variable and B is the dependent variable."
+          },
+          {
+            "mp_id": "P2",
+            "type": "required",
+            "point_text": "Keep potential difference V between the ends of the conductors constant."
+          }
+        ],
+        "methods_of_data_collection": [
+          {
+            "mp_id": "M1",
+            "type": "required",
+            "point_text": "Labelled diagram of workable experiment including: conductors in parallel connected in series to a power supply and a resistor; correct circuit symbols for the variable resistor and power supply; X labelled and at least one other label from L, P, Q, p or q."
+          },
+          {
+            "mp_id": "M2",
+            "type": "required",
+            "point_text": "Connect a voltmeter in parallel with the conductors to measure V."
+          },
+          {
+            "mp_id": "M3",
+            "type": "required",
+            "point_text": "Measure L and the distances p and q using a rule, ruler or calipers."
+          },
+          {
+            "mp_id": "M4",
+            "type": "required",
+            "point_text": "Measure B using a calibrated Hall probe and rotate or adjust the probe until the maximum value is obtained."
+          }
+        ],
+        "method_of_analysis": [
+          {
+            "mp_id": "A1",
+            "type": "required",
+            "point_text": "Plot a graph of B against 1 / p."
+          },
+          {
+            "mp_id": "A2",
+            "type": "required",
+            "point_text": "Relationship valid if a straight line with y-intercept = YZAV / (Lq) is produced."
+          },
+          {
+            "mp_id": "A3",
+            "type": "required",
+            "point_text": "Y = (gradient × L) / (AV)."
+          },
+          {
+            "mp_id": "A4",
+            "type": "required",
+            "point_text": "Z = (q × y-intercept) / gradient."
+          }
+        ],
+        "additional_detail_pool": [
+          {
+            "mp_id": "D1",
+            "type": "optional_pool",
+            "point_text": "Use gloves, switch off the power supply between measurements, or allow the conductors to cool to reduce the risk from high current or hot conductors."
+          },
+          {
+            "mp_id": "D2",
+            "type": "optional_pool",
+            "point_text": "Keep cross-sectional area A, length L and distance q constant."
+          },
+          {
+            "mp_id": "D3",
+            "type": "optional_pool",
+            "point_text": "Measure conductor diameter d using calipers or a micrometer and calculate A = πd^2 / 4."
+          },
+          {
+            "mp_id": "D4",
+            "type": "optional_pool",
+            "point_text": "Repeat measurements of diameter at different positions and average d."
+          },
+          {
+            "mp_id": "D5",
+            "type": "optional_pool",
+            "point_text": "Determine the position of X by finding the midpoint of P or Q and using a set square, plumb line or grid to mark X."
+          },
+          {
+            "mp_id": "D6",
+            "type": "optional_pool",
+            "point_text": "Measure B in one direction and then in the opposite direction and average B."
+          },
+          {
+            "mp_id": "D7",
+            "type": "optional_pool",
+            "point_text": "Measure p and q to the outside of a conductor and add the radius if needed."
+          },
+          {
+            "mp_id": "D8",
+            "type": "optional_pool",
+            "point_text": "Keep q constant by fixing conductor Q to the bench with tape or adhesive putty, or by clamping it in position."
+          },
+          {
+            "mp_id": "D9",
+            "type": "optional_pool",
+            "point_text": "Keep P and Q parallel by checking the separation between the conductors at different points."
+          },
+          {
+            "mp_id": "D10",
+            "type": "optional_pool",
+            "point_text": "Adjust the variable resistor or power supply so that the voltmeter reading stays constant."
+          }
+        ],
+        "additional_detail_max": 6
+      },
+      "target_answer": {
+        "format_name": "exam_style_structured_v1",
+        "response": "p is the independent variable and B is the dependent variable.\nKeep potential difference V between the ends of the conductors, cross-sectional area A and length L of the conductors, and distance q constant.\n\nLabelled diagram of workable experiment including:\n• conductors P and Q connected in parallel and in series with a power supply and a variable resistor\n• voltmeter connected in parallel across the conductors\n• point X labelled\n• labels for L, P, Q, p and q.\n\nMeasure L and the distances p and q using a rule or calipers. Find the midpoint of the conductors and use a set square, plumb line or grid to mark X accurately. Measure to the outside of a conductor and add the radius if needed.\nMeasure B using a calibrated Hall probe and rotate or adjust the probe until the maximum reading is obtained. Measure B in opposite directions and average if needed.\nMeasure the diameter d of a conductor using calipers or a micrometer. Repeat at different positions and average, then calculate A = πd^2 / 4.\nFix conductor Q in position with tape, adhesive putty or clamps so q stays constant. Check that P and Q remain parallel by measuring their separation at different points. Adjust the variable resistor or power supply so that the voltmeter reading V stays constant.\n\nPlot a graph of B against 1 / p.\nRelationship valid if a straight line with y-intercept = YZAV / (Lq) is produced.\nY = (gradient × L) / (AV).\nZ = (q × y-intercept) / gradient.\n\nSafety:\nSwitch off the power supply between measurements and allow the conductors to cool, or use gloves if the conductors become hot."
+      },
+      "notes_for_training": {
+        "answer_style_requirement": "Model output should be an exam-style structured planning answer, not just a list of isolated mark points.",
+        "scoring_logic_hint": "defining_problem, methods_of_data_collection and method_of_analysis contain the main structured marks. additional_detail_pool contains optional valid details with a maximum credit of 6.",
+        "extraction_rule_applied": {
+          "diagram_required_removed": true,
+          "defining_problem_p1_trimmed": true,
+          "method_of_analysis_uses_only_main_graph_instruction": true,
+          "method_of_analysis_uses_only_main_validity_statement": true,
+          "keep_line_uses_all_non_constant_relationship_variables_except_iv_dv": true,
+          "diagram_content_grouped_together_in_response": true,
+          "calculation_statements_grouped_with_relevant_measurement_section": true,
+          "gradient_or_y_intercept_only_when_needed": true
+        }
+      }
+    },
+    {
+      "sample_id": "9702_s25_qp_51",
+      "subject": "CAIE A Level Physics 9702",
+      "paper": "Paper 5",
+      "series": "May/June",
+      "year": 2025,
+      "paper_variant": "51",
+      "question_number": 1,
+      "marks": 15,
+      "source_files": {
+        "question_paper": "9702_s25_qp_51.pdf",
+        "mark_scheme": "9702_s25_ms_51.pdf"
+      },
+      "question": {
+        "raw_question_text": "Fig. 1.1 shows a thin coil of cross-sectional area A and length l connected to a resistor of resistance S and two terminals. An alternating voltage is applied to the terminals. The peak value of the alternating voltage is E and the frequency is f. The peak value of the potential difference V across the resistor is determined using an oscilloscope. It is suggested that V is related to f by the relationship ES / V = KAN^2 f / l, where N is the number of turns on the coil and K is a constant. Plan a laboratory experiment to test the relationship between V and f. Draw a diagram showing the arrangement of your equipment. Explain how the results could be used to determine a value for K. In your plan you should include: the procedure to be followed, the measurements to be taken, the control of variables, the analysis of the data, any safety precautions to be taken.",
+        "experiment_context": "peak potential difference across a resistor connected to a coil driven by an alternating supply",
+        "given_relationship": "ES / V = KAN^2 f / l",
+        "unknown_constants": [
+          "K"
+        ],
+        "focus_points_from_question": [
+          "procedure to be followed",
+          "measurements to be taken",
+          "control of variables",
+          "analysis of the data",
+          "any safety precautions to be taken"
+        ]
+      },
+      "mark_scheme": {
+        "defining_problem": [
+          {
+            "mp_id": "P1",
+            "type": "required",
+            "point_text": "f is the independent variable and V is the dependent variable."
+          },
+          {
+            "mp_id": "P2",
+            "type": "required",
+            "point_text": "Keep peak alternating voltage E constant."
+          }
+        ],
+        "methods_of_data_collection": [
+          {
+            "mp_id": "M1",
+            "type": "required",
+            "point_text": "Labelled diagram of workable experiment including: circuit with an a.c. supply; oscilloscope connected in parallel with the resistor; workable circuit; oscilloscope and a.c. supply labelled."
+          },
+          {
+            "mp_id": "M2",
+            "type": "required",
+            "point_text": "Connect a labelled signal generator or variable-frequency power supply across the terminals."
+          },
+          {
+            "mp_id": "M3",
+            "type": "required",
+            "point_text": "Determine V or E from the oscilloscope, for example by multiplying wave amplitude or height by the y-gain."
+          },
+          {
+            "mp_id": "M4",
+            "type": "required",
+            "point_text": "Determine f from the oscilloscope by measuring the period using the time-base and calculating f = 1 / T."
+          }
+        ],
+        "method_of_analysis": [
+          {
+            "mp_id": "A1",
+            "type": "required",
+            "point_text": "Plot a graph of 1 / V against f."
+          },
+          {
+            "mp_id": "A2",
+            "type": "required",
+            "point_text": "Relationship valid if a straight line passing through the origin is produced."
+          },
+          {
+            "mp_id": "A3",
+            "type": "required",
+            "point_text": "K = (ESl × gradient) / (AN^2)."
+          }
+        ],
+        "additional_detail_pool": [
+          {
+            "mp_id": "D1",
+            "type": "optional_pool",
+            "point_text": "Use gloves or switch off the power supply when not measuring to reduce the risk of burns from the hot coil or resistor."
+          },
+          {
+            "mp_id": "D2",
+            "type": "optional_pool",
+            "point_text": "Keep N, A, l and S constant."
+          },
+          {
+            "mp_id": "D3",
+            "type": "optional_pool",
+            "point_text": "Keep S constant by switching off the power supply between readings so the resistor does not heat up, or allow the resistor to cool."
+          },
+          {
+            "mp_id": "D4",
+            "type": "optional_pool",
+            "point_text": "Measure coil diameter d using calipers or a micrometer and calculate A = πd^2 / 4."
+          },
+          {
+            "mp_id": "D5",
+            "type": "optional_pool",
+            "point_text": "Repeat measurements of diameter at different positions or in different directions and average d."
+          },
+          {
+            "mp_id": "D6",
+            "type": "optional_pool",
+            "point_text": "Determine S using an ohmmeter, or by measuring potential difference and current and calculating S = V / I."
+          },
+          {
+            "mp_id": "D7",
+            "type": "optional_pool",
+            "point_text": "Measure l with a ruler or calipers."
+          },
+          {
+            "mp_id": "D8",
+            "type": "optional_pool",
+            "point_text": "Connect the oscilloscope across the terminals as well if needed to determine E."
+          },
+          {
+            "mp_id": "D9",
+            "type": "optional_pool",
+            "point_text": "Adjust the y-gain for maximum amplitude and adjust the time-base so one or a few waves can be measured accurately."
+          },
+          {
+            "mp_id": "D10",
+            "type": "optional_pool",
+            "point_text": "Keep E constant by checking the potential difference and altering the supply, keep l constant by taping the coil, or keep A constant by winding the wire on a cylinder."
+          }
+        ],
+        "additional_detail_max": 6
+      },
+      "target_answer": {
+        "format_name": "exam_style_structured_v1",
+        "response": "f is the independent variable and V is the dependent variable.\nKeep peak value E of the alternating voltage, cross-sectional area A, number of turns N, length l of the coil and resistance S constant.\n\nLabelled diagram of workable experiment including:\n• circuit with an a.c. supply\n• oscilloscope connected in parallel with the resistor\n• labelled signal generator or variable-frequency power supply connected across the terminals\n• labels for the oscilloscope and a.c. supply.\n\nUse the oscilloscope to determine V across the resistor. Multiply the wave amplitude or height by the y-gain.\nUse the oscilloscope to determine f. Measure the period using the time-base and the horizontal length of one cycle, then calculate f = 1 / T. Connect the oscilloscope across the terminals as well if needed to determine E.\nMeasure coil diameter d using calipers or a micrometer. Repeat at different positions or in different directions and average, then calculate A = πd^2 / 4. Measure l with a ruler or calipers.\nDetermine S using an ohmmeter, or by measuring potential difference and current and calculating S = V / I. Keep S constant by switching off the supply between readings or allowing the resistor to cool. Adjust the y-gain and time-base to improve measurement accuracy. Check the potential difference and alter the supply if needed so E stays constant.\n\nPlot a graph of 1 / V against f.\nRelationship valid if a straight line passing through the origin is produced.\nK = (ESl × gradient) / (AN^2).\n\nSafety:\nSwitch off the power supply when not measuring, or use gloves if the coil or resistor becomes hot."
+      },
+      "notes_for_training": {
+        "answer_style_requirement": "Model output should be an exam-style structured planning answer, not just a list of isolated mark points.",
+        "scoring_logic_hint": "defining_problem, methods_of_data_collection and method_of_analysis contain the main structured marks. additional_detail_pool contains optional valid details with a maximum credit of 6.",
+        "extraction_rule_applied": {
+          "diagram_required_removed": true,
+          "defining_problem_p1_trimmed": true,
+          "method_of_analysis_uses_only_main_graph_instruction": true,
+          "method_of_analysis_uses_only_main_validity_statement": true,
+          "keep_line_uses_all_non_constant_relationship_variables_except_iv_dv": true,
+          "diagram_content_grouped_together_in_response": true,
+          "calculation_statements_grouped_with_relevant_measurement_section": true,
+          "gradient_or_y_intercept_only_when_needed": true
+        }
+      }
+    },
+    {
+      "sample_id": "9702_s25_qp_52",
+      "subject": "CAIE A Level Physics 9702",
+      "paper": "Paper 5",
+      "series": "May/June",
+      "year": 2025,
+      "paper_variant": "52",
+      "question_number": 1,
+      "marks": 15,
+      "source_files": {
+        "question_paper": "9702_s25_qp_52.pdf",
+        "mark_scheme": "9702_s25_ms_52.pdf"
+      },
+      "question": {
+        "raw_question_text": "A thin solid disc of radius r and thickness z is attached to a thin axle. String is wrapped around the axle. A block of mass m is attached to the string. The block is released from rest and falls downwards. The block has speed v when it has fallen through a distance h from the point of release. The value of v is determined using one light gate connected to a timer. It is suggested that v is related to m by the relationship h / v^2 = πr^2 z / (2PQm) + 1 / P, where P and Q are constants. Plan a laboratory experiment to test the relationship between v and m. Draw a diagram showing the arrangement of your equipment. Explain how the results could be used to determine values for P and Q. In your plan you should include: the procedure to be followed, the measurements to be taken, the control of variables, the analysis of the data, any safety precautions to be taken.",
+        "experiment_context": "speed of a falling block attached to a string wrapped around an axle and disc",
+        "given_relationship": "h / v^2 = πr^2 z / (2PQm) + 1 / P",
+        "unknown_constants": [
+          "P",
+          "Q"
+        ],
+        "focus_points_from_question": [
+          "procedure to be followed",
+          "measurements to be taken",
+          "control of variables",
+          "analysis of the data",
+          "any safety precautions to be taken"
+        ]
+      },
+      "mark_scheme": {
+        "defining_problem": [
+          {
+            "mp_id": "P1",
+            "type": "required",
+            "point_text": "m is the independent variable and v is the dependent variable."
+          },
+          {
+            "mp_id": "P2",
+            "type": "required",
+            "point_text": "Keep h constant."
+          }
+        ],
+        "methods_of_data_collection": [
+          {
+            "mp_id": "M1",
+            "type": "required",
+            "point_text": "Labelled diagram of workable experiment including: axle resting on supports on stands; supports placed on a bench; light gate positioned at a distance h; light gate labelled and h indicated."
+          },
+          {
+            "mp_id": "M2",
+            "type": "required",
+            "point_text": "Clamp a vertical metre rule close to the block to measure h."
+          },
+          {
+            "mp_id": "M3",
+            "type": "required",
+            "point_text": "Determine v using an interrupt length, for example v = length of the block divided by the time recorded by the timer."
+          },
+          {
+            "mp_id": "M4",
+            "type": "required",
+            "point_text": "Measure m using a top-pan balance."
+          }
+        ],
+        "method_of_analysis": [
+          {
+            "mp_id": "A1",
+            "type": "required",
+            "point_text": "Plot a graph of 1 / v^2 against 1 / m."
+          },
+          {
+            "mp_id": "A2",
+            "type": "required",
+            "point_text": "Relationship valid if a straight line with y-intercept = 1 / (hP) is produced."
+          },
+          {
+            "mp_id": "A3",
+            "type": "required",
+            "point_text": "P = 1 / (h × y-intercept)."
+          },
+          {
+            "mp_id": "A4",
+            "type": "required",
+            "point_text": "Q = (πr^2 z × y-intercept) / (2 × gradient)."
+          }
+        ],
+        "additional_detail_pool": [
+          {
+            "mp_id": "D1",
+            "type": "optional_pool",
+            "point_text": "Use a cushion or sand tray to prevent damage if the block falls, or clamp the stand to the bench so it does not topple."
+          },
+          {
+            "mp_id": "D2",
+            "type": "optional_pool",
+            "point_text": "Keep r and z constant."
+          },
+          {
+            "mp_id": "D3",
+            "type": "optional_pool",
+            "point_text": "Measure radius r by measuring diameter d with calipers or a ruler and calculating r = d / 2."
+          },
+          {
+            "mp_id": "D4",
+            "type": "optional_pool",
+            "point_text": "Measure z with a micrometer or calipers."
+          },
+          {
+            "mp_id": "D5",
+            "type": "optional_pool",
+            "point_text": "Use a set square between the rule and the bench to ensure that the rule used to measure h is vertical."
+          },
+          {
+            "mp_id": "D6",
+            "type": "optional_pool",
+            "point_text": "Keep h constant by using a fixed marker, pin or rod to indicate the initial position of the bottom of the block."
+          },
+          {
+            "mp_id": "D7",
+            "type": "optional_pool",
+            "point_text": "Ensure the axle can rotate freely by lubricating the supports or making sure the axle is not fixed at the supports."
+          },
+          {
+            "mp_id": "D8",
+            "type": "optional_pool",
+            "point_text": "Use a large interrupt length for the block to reduce the percentage uncertainty in the light-gate time."
+          },
+          {
+            "mp_id": "D9",
+            "type": "optional_pool",
+            "point_text": "Repeat the experiment for the same value of m and average v."
+          },
+          {
+            "mp_id": "D10",
+            "type": "optional_pool",
+            "point_text": "Relationship valid if a straight line with y-intercept = 1 / (hP) is produced."
+          }
+        ],
+        "additional_detail_max": 6
+      },
+      "target_answer": {
+        "format_name": "exam_style_structured_v1",
+        "response": "m is the independent variable and v is the dependent variable.\nKeep distance h, radius r and thickness z of the disc constant.\n\nLabelled diagram of workable experiment including:\n• axle resting on supports on stands\n• supports on a bench\n• light gate positioned at a distance h\n• vertical metre rule clamped close to the block to measure h\n• labels for the light gate and h.\n\nMeasure m using a top-pan balance.\nMeasure v using the light gate and timer. Use the interrupt length of the block and calculate v = interrupt length / time.\nMeasure diameter d of the disc using calipers or a ruler and calculate r = d / 2. Measure thickness z with a micrometer or calipers.\nUse a set square to keep the rule vertical. Keep h constant by using a fixed marker, pin or rod to indicate the starting position of the bottom of the block. Ensure the axle rotates freely by lubricating the supports or making sure the axle is not fixed. Use a large interrupt length for the block to reduce uncertainty.\n\nRepeat the experiment for the same value of m and average v.\nPlot a graph of 1 / v^2 against 1 / m.\nRelationship valid if a straight line with y-intercept = 1 / (hP) is produced.\nP = 1 / (h × y-intercept).\nQ = (πr^2 z × y-intercept) / (2 × gradient).\n\nSafety:\nUse a cushion or sand tray to prevent damage if the block falls, and clamp the stand to the bench if needed."
+      },
+      "notes_for_training": {
+        "answer_style_requirement": "Model output should be an exam-style structured planning answer, not just a list of isolated mark points.",
+        "scoring_logic_hint": "defining_problem, methods_of_data_collection and method_of_analysis contain the main structured marks. additional_detail_pool contains optional valid details with a maximum credit of 6.",
+        "extraction_rule_applied": {
+          "diagram_required_removed": true,
+          "defining_problem_p1_trimmed": true,
+          "method_of_analysis_uses_only_main_graph_instruction": true,
+          "method_of_analysis_uses_only_main_validity_statement": true,
+          "keep_line_uses_all_non_constant_relationship_variables_except_iv_dv": true,
+          "diagram_content_grouped_together_in_response": true,
+          "calculation_statements_grouped_with_relevant_measurement_section": true,
+          "gradient_or_y_intercept_only_when_needed": true
+        }
+      }
+    },
+    {
+      "sample_id": "9702_s25_qp_54",
+      "subject": "CAIE A Level Physics 9702",
+      "paper": "Paper 5",
+      "series": "May/June",
+      "year": 2025,
+      "paper_variant": "54",
+      "question_number": 1,
+      "marks": 15,
+      "source_files": {
+        "question_paper": "9702_s25_qp_54.pdf",
+        "mark_scheme": "9702_s25_ms_54.pdf"
+      },
+      "question": {
+        "raw_question_text": "A ball is dropped on to an inclined thin metal sheet. The angle between the sheet and the horizontal bench is θ. The height of the point of contact of the ball and the sheet is z. The horizontal distance travelled by the ball between its points of contact with the sheet and the bench is d. It is suggested that d is related to θ by the relationship d = Pv^2 sin(4θ) / g + Qz, where v is the speed of the ball as it makes contact with the sheet, g is the acceleration of free fall, and P and Q are constants. Plan a laboratory experiment to test the relationship between d and θ. Draw a diagram showing the arrangement of your equipment. Explain how the results could be used to determine values for P and Q. In your plan you should include: the procedure to be followed, the measurements to be taken, the control of variables, the analysis of the data, any safety precautions to be taken.",
+        "experiment_context": "horizontal range of a ball after striking an inclined metal sheet",
+        "given_relationship": "d = Pv^2 sin(4θ) / g + Qz",
+        "unknown_constants": [
+          "P",
+          "Q"
+        ],
+        "focus_points_from_question": [
+          "procedure to be followed",
+          "measurements to be taken",
+          "control of variables",
+          "analysis of the data",
+          "any safety precautions to be taken"
+        ]
+      },
+      "mark_scheme": {
+        "defining_problem": [
+          {
+            "mp_id": "P1",
+            "type": "required",
+            "point_text": "θ is the independent variable and d is the dependent variable."
+          },
+          {
+            "mp_id": "P2",
+            "type": "required",
+            "point_text": "Keep z constant."
+          }
+        ],
+        "methods_of_data_collection": [
+          {
+            "mp_id": "M1",
+            "type": "required",
+            "point_text": "Labelled diagram of workable experiment including: sheet supported with a stand, support or blocks; path of the ball from the sheet to the bench or distance d indicated; at least two labels from ball, bench, sheet, block, clamp, stand or support."
+          },
+          {
+            "mp_id": "M2",
+            "type": "required",
+            "point_text": "Describe a method to determine the point where the ball contacts the bench, for example paint on the ball, sand on the bench, or video playback in slow motion or frame by frame with a rule in view."
+          },
+          {
+            "mp_id": "M3",
+            "type": "required",
+            "point_text": "Measure d with a rule, and measure z with a rule or calipers."
+          },
+          {
+            "mp_id": "M4",
+            "type": "required",
+            "point_text": "Measure θ with a protractor, or determine θ from appropriate lengths using a trigonometric relationship."
+          }
+        ],
+        "method_of_analysis": [
+          {
+            "mp_id": "A1",
+            "type": "required",
+            "point_text": "Plot a graph of d against sin(4θ)."
+          },
+          {
+            "mp_id": "A2",
+            "type": "required",
+            "point_text": "Relationship valid if a straight line with y-intercept = Qz is produced."
+          },
+          {
+            "mp_id": "A3",
+            "type": "required",
+            "point_text": "P = (g × gradient) / v^2."
+          },
+          {
+            "mp_id": "A4",
+            "type": "required",
+            "point_text": "Q = y-intercept / z."
+          }
+        ],
+        "additional_detail_pool": [
+          {
+            "mp_id": "D1",
+            "type": "optional_pool",
+            "point_text": "Use a cushion, sand box or barrier to stop the ball rolling off the floor, or use goggles to protect the eyes from a bouncing ball or sprayed sand."
+          },
+          {
+            "mp_id": "D2",
+            "type": "optional_pool",
+            "point_text": "Keep v constant."
+          },
+          {
+            "mp_id": "D3",
+            "type": "optional_pool",
+            "point_text": "Keep v constant by keeping the height through which the ball falls before hitting the sheet constant."
+          },
+          {
+            "mp_id": "D4",
+            "type": "optional_pool",
+            "point_text": "Determine v or v^2 using v^2 = 2g × height fallen by the ball."
+          },
+          {
+            "mp_id": "D5",
+            "type": "optional_pool",
+            "point_text": "Use a set square with the rule to ensure that the rule used to measure z or the initial height is vertical."
+          },
+          {
+            "mp_id": "D6",
+            "type": "optional_pool",
+            "point_text": "Keep z constant by re-marking the point of contact on the sheet as θ changes or by changing the release point."
+          },
+          {
+            "mp_id": "D7",
+            "type": "optional_pool",
+            "point_text": "Ensure the ball is released above the point of contact on the sheet using a plumb line, or a vertical rule and set square."
+          },
+          {
+            "mp_id": "D8",
+            "type": "optional_pool",
+            "point_text": "Drop the ball from a large height to obtain greater values of d."
+          },
+          {
+            "mp_id": "D9",
+            "type": "optional_pool",
+            "point_text": "Repeat the experiment for each value of θ and average d."
+          },
+          {
+            "mp_id": "D10",
+            "type": "optional_pool",
+            "point_text": "Relationship valid if a straight line with y-intercept = Qz is produced."
+          }
+        ],
+        "additional_detail_max": 6
+      },
+      "target_answer": {
+        "format_name": "exam_style_structured_v1",
+        "response": "θ is the independent variable and d is the dependent variable.\nKeep height z of the point of contact and speed v of the ball as it makes contact with the sheet constant.\n\nLabelled diagram of workable experiment including:\n• thin metal sheet supported by a stand, support or blocks\n• path of the ball from the sheet to the bench, or the horizontal distance d indicated\n• labels for the ball, sheet, bench and support.\n\nDetermine the point where the ball contacts the bench, for example using paint on the ball, sand on the bench, or video playback in slow motion or frame by frame with a rule in view.\nMeasure d with a rule. Measure z with a rule or calipers.\nMeasure θ with a protractor, or determine θ from appropriate lengths using a trigonometric relationship.\nKeep the height through which the ball falls before striking the sheet constant so that v stays constant. Use v^2 = 2g × height fallen to determine v^2. Use a set square to keep the rule vertical. Keep z constant by re-marking the point of contact on the sheet as θ changes or by changing the release point. Ensure the ball is released vertically above the point of contact using a plumb line or a vertical rule and set square.\n\nRepeat the experiment for each value of θ and average d.\nPlot a graph of d against sin(4θ).\nRelationship valid if a straight line with y-intercept = Qz is produced.\nP = (g × gradient) / v^2.\nQ = y-intercept / z.\n\nSafety:\nUse a cushion, sand box or barrier to stop the ball rolling away, or use goggles to protect your eyes."
+      },
+      "notes_for_training": {
+        "answer_style_requirement": "Model output should be an exam-style structured planning answer, not just a list of isolated mark points.",
+        "scoring_logic_hint": "defining_problem, methods_of_data_collection and method_of_analysis contain the main structured marks. additional_detail_pool contains optional valid details with a maximum credit of 6.",
+        "extraction_rule_applied": {
+          "diagram_required_removed": true,
+          "defining_problem_p1_trimmed": true,
+          "method_of_analysis_uses_only_main_graph_instruction": true,
+          "method_of_analysis_uses_only_main_validity_statement": true,
+          "keep_line_uses_all_non_constant_relationship_variables_except_iv_dv": true,
+          "diagram_content_grouped_together_in_response": true,
+          "calculation_statements_grouped_with_relevant_measurement_section": true,
+          "gradient_or_y_intercept_only_when_needed": true
+        }
+      }
+    },
+    {
+      "sample_id": "9702_w25_qp_51",
+      "subject": "CAIE A Level Physics 9702",
+      "paper": "Paper 5",
+      "series": "October/November",
+      "year": 2025,
+      "paper_variant": "51",
+      "question_number": 1,
+      "marks": 15,
+      "source_files": {
+        "question_paper": "9702_w25_qp_51.pdf",
+        "mark_scheme": "9702_w25_ms_51.pdf"
+      },
+      "question": {
+        "raw_question_text": "On a bench, a steel ball of radius r is used to compress a spring by a distance x. The ball is held at rest in this position. The ball is released and rolls along the bench. At a fixed point P, the ball has speed v. The speed of the ball at P is determined using one light gate connected to a timer. Several steel balls of different radii are available. It is suggested that v is related to r by the relationship v^2 = Ykx^2 / (r^n ρ), where k is the spring constant of the spring, ρ is the density of the steel, and Y and n are constants. Plan a laboratory experiment to test the relationship between v and r. Draw a diagram showing the arrangement of your equipment. Explain how the results could be used to determine values for Y and n. In your plan you should include: the procedure to be followed, the measurements to be taken, the control of variables, the analysis of the data, any safety precautions to be taken.",
+        "experiment_context": "speed of a steel ball launched by a compressed spring and measured at a fixed point",
+        "given_relationship": "v^2 = Ykx^2 / (r^n ρ)",
+        "unknown_constants": [
+          "Y",
+          "n"
+        ],
+        "focus_points_from_question": [
+          "procedure to be followed",
+          "measurements to be taken",
+          "control of variables",
+          "analysis of the data",
+          "any safety precautions to be taken"
+        ]
+      },
+      "mark_scheme": {
+        "defining_problem": [
+          {
+            "mp_id": "P1",
+            "type": "required",
+            "point_text": "r is the independent variable and v is the dependent variable."
+          },
+          {
+            "mp_id": "P2",
+            "type": "required",
+            "point_text": "Keep x constant."
+          }
+        ],
+        "methods_of_data_collection": [
+          {
+            "mp_id": "M1",
+            "type": "required",
+            "point_text": "Labelled diagram of workable experiment including: one end of the spring resting against a block clamped to the bench using a G-clamp; light gate positioned at P; light gate connected to a timer; apparatus on a bench; labels for the light gate and P and at least one other label from bench, block, stand, spring, ball or timer."
+          },
+          {
+            "mp_id": "M2",
+            "type": "required",
+            "point_text": "Determine r using calipers or a micrometer to measure the diameter d and calculate r = d / 2."
+          },
+          {
+            "mp_id": "M3",
+            "type": "required",
+            "point_text": "Determine v using the ball diameter as the interrupt length divided by the time recorded by the light gate at P."
+          },
+          {
+            "mp_id": "M4",
+            "type": "required",
+            "point_text": "Measure x using a rule or calipers."
+          }
+        ],
+        "method_of_analysis": [
+          {
+            "mp_id": "A1",
+            "type": "required",
+            "point_text": "Plot a graph of lg(v^2) against lg r."
+          },
+          {
+            "mp_id": "A2",
+            "type": "required",
+            "point_text": "Relationship valid if a straight line with y-intercept = lg(Ykx^2 / ρ) is produced."
+          },
+          {
+            "mp_id": "A3",
+            "type": "required",
+            "point_text": "n = -gradient."
+          },
+          {
+            "mp_id": "A4",
+            "type": "required",
+            "point_text": "Y = (ρ × 10^(y-intercept)) / (k x^2)."
+          }
+        ],
+        "additional_detail_pool": [
+          {
+            "mp_id": "D1",
+            "type": "optional_pool",
+            "point_text": "Use screens around the apparatus or cushions on the bench to stop the ball leaving the bench."
+          },
+          {
+            "mp_id": "D2",
+            "type": "optional_pool",
+            "point_text": "Keep spring constant k and steel density ρ constant."
+          },
+          {
+            "mp_id": "D3",
+            "type": "optional_pool",
+            "point_text": "Determine k in a separate experiment, for example by adding masses and using k = mg / extension, by using a newton meter and k = force / extension, or by plotting a force-extension graph and taking the gradient."
+          },
+          {
+            "mp_id": "D4",
+            "type": "optional_pool",
+            "point_text": "Determine ρ by measuring the mass of a ball using a balance and calculating ρ = m / ((4 / 3)πr^3)."
+          },
+          {
+            "mp_id": "D5",
+            "type": "optional_pool",
+            "point_text": "Repeat diameter measurements in different directions and average the diameter."
+          },
+          {
+            "mp_id": "D6",
+            "type": "optional_pool",
+            "point_text": "Keep x constant by using a pin, card or ruler to indicate the starting position each time."
+          },
+          {
+            "mp_id": "D7",
+            "type": "optional_pool",
+            "point_text": "Calculate x = original spring length - compressed spring length."
+          },
+          {
+            "mp_id": "D8",
+            "type": "optional_pool",
+            "point_text": "Adjust the vertical position of the light gate so that the diameter of each ball interrupts the beam."
+          },
+          {
+            "mp_id": "D9",
+            "type": "optional_pool",
+            "point_text": "Repeat the experiment for the same value of r and average v."
+          },
+          {
+            "mp_id": "D10",
+            "type": "optional_pool",
+            "point_text": "Relationship valid if a straight line with y-intercept = lg(Ykx^2 / ρ) is produced."
+          }
+        ],
+        "additional_detail_max": 6
+      },
+      "target_answer": {
+        "format_name": "exam_style_structured_v1",
+        "response": "r is the independent variable and v is the dependent variable.\nKeep compression distance x, spring constant k and density ρ of the steel constant.\n\nLabelled diagram of workable experiment including:\n• one end of the spring resting against a block clamped to the bench using a G-clamp\n• light gate positioned at P and connected to a timer\n• apparatus on a bench\n• labels for the light gate, P, spring, ball and block.\n\nMeasure the diameter d of each steel ball using calipers or a micrometer and calculate r = d / 2. Repeat measurements in different directions and average the diameter.\nMeasure v at P using the light gate and timer. Use the ball diameter as the interrupt length and calculate v = interrupt length / time. Adjust the vertical position of the light gate so that the diameter of each ball interrupts the beam.\nMeasure x using a rule or calipers. Calculate x = original spring length - compressed spring length. Use a pin, card or ruler to indicate the starting position each time so x stays constant.\nDetermine k in a separate experiment, for example by adding masses and using k = mg / extension, by using a newton meter and calculating force / extension, or by plotting a force-extension graph and taking the gradient. Determine ρ by measuring the mass of a ball with a balance and calculating ρ = m / ((4 / 3)πr^3).\n\nRepeat the experiment for the same value of r and average v.\nPlot a graph of lg(v^2) against lg r.\nRelationship valid if a straight line with y-intercept = lg(Ykx^2 / ρ) is produced.\nn = -gradient.\nY = (ρ × 10^(y-intercept)) / (k x^2).\n\nSafety:\nUse screens or cushions so the ball cannot leave the bench."
+      },
+      "notes_for_training": {
+        "answer_style_requirement": "Model output should be an exam-style structured planning answer, not just a list of isolated mark points.",
+        "scoring_logic_hint": "defining_problem, methods_of_data_collection and method_of_analysis contain the main structured marks. additional_detail_pool contains optional valid details with a maximum credit of 6.",
+        "extraction_rule_applied": {
+          "diagram_required_removed": true,
+          "defining_problem_p1_trimmed": true,
+          "method_of_analysis_uses_only_main_graph_instruction": true,
+          "method_of_analysis_uses_only_main_validity_statement": true,
+          "keep_line_uses_all_non_constant_relationship_variables_except_iv_dv": true,
+          "diagram_content_grouped_together_in_response": true,
+          "calculation_statements_grouped_with_relevant_measurement_section": true,
+          "gradient_or_y_intercept_only_when_needed": true
+        }
+      }
+    },
+    {
+      "sample_id": "9702_w25_qp_52",
+      "subject": "CAIE A Level Physics 9702",
+      "paper": "Paper 5",
+      "series": "October/November",
+      "year": 2025,
+      "paper_variant": "52",
+      "question_number": 1,
+      "marks": 15,
+      "source_files": {
+        "question_paper": "9702_w25_qp_52.pdf",
+        "mark_scheme": "9702_w25_ms_52.pdf"
+      },
+      "question": {
+        "raw_question_text": "Fig. 1.1 shows a model wind turbine with blades, each of length L, placed in moving air. The area of the circle swept by the blades of the turbine is A. The output of the turbine has two terminals. The turbine is connected to a resistor of resistance R. At a speed v of the moving air, the current in the resistor is I. The atmospheric pressure is P and the thermodynamic temperature of the air is T. It is suggested that I is related to v by the relationship I^2 R / Q = APv^3 / (2T), where Q is a constant. Plan a laboratory experiment to test the relationship between I and v. Draw a diagram showing the arrangement of your equipment. Explain how the results could be used to determine a value for Q. In your plan you should include: the procedure to be followed, the measurements to be taken, the control of variables, the analysis of the data, any safety precautions to be taken.",
+        "experiment_context": "current from a model wind turbine driving a resistor in moving air",
+        "given_relationship": "I^2 R / Q = APv^3 / (2T)",
+        "unknown_constants": [
+          "Q"
+        ],
+        "focus_points_from_question": [
+          "procedure to be followed",
+          "measurements to be taken",
+          "control of variables",
+          "analysis of the data",
+          "any safety precautions to be taken"
+        ]
+      },
+      "mark_scheme": {
+        "defining_problem": [
+          {
+            "mp_id": "P1",
+            "type": "required",
+            "point_text": "v is the independent variable and I is the dependent variable."
+          },
+          {
+            "mp_id": "P2",
+            "type": "required",
+            "point_text": "Keep A and R constant."
+          }
+        ],
+        "methods_of_data_collection": [
+          {
+            "mp_id": "M1",
+            "type": "required",
+            "point_text": "Labelled diagram of workable experiment including: fan positioned in line with the turbine so that the blades of the fan and turbine overlap; fan on a bench; fan labelled and one other label from bench, turbine, blades, terminals or L."
+          },
+          {
+            "mp_id": "M2",
+            "type": "required",
+            "point_text": "Workable circuit diagram showing the resistor connected to an ammeter in series with the turbine terminals using correct circuit symbols."
+          },
+          {
+            "mp_id": "M3",
+            "type": "required",
+            "point_text": "Vary v, for example by changing the fan speed, changing the distance between the fan and blades, or varying the current or potential difference across the fan."
+          },
+          {
+            "mp_id": "M4",
+            "type": "required",
+            "point_text": "Measure temperature T using a thermometer."
+          }
+        ],
+        "method_of_analysis": [
+          {
+            "mp_id": "A1",
+            "type": "required",
+            "point_text": "Plot a graph of I^2 against v^3."
+          },
+          {
+            "mp_id": "A2",
+            "type": "required",
+            "point_text": "Relationship valid if a straight line passing through the origin is produced."
+          },
+          {
+            "mp_id": "A3",
+            "type": "required",
+            "point_text": "Q = (2TR × gradient) / (AP)."
+          }
+        ],
+        "additional_detail_pool": [
+          {
+            "mp_id": "D1",
+            "type": "optional_pool",
+            "point_text": "Keep away from the moving blades, use a screen around the fan or turbine, or use goggles to protect the eyes from air or dust particles."
+          },
+          {
+            "mp_id": "D2",
+            "type": "optional_pool",
+            "point_text": "Clamp the turbine or fan to the bench."
+          },
+          {
+            "mp_id": "D3",
+            "type": "optional_pool",
+            "point_text": "Keep atmospheric pressure P and thermodynamic temperature T constant."
+          },
+          {
+            "mp_id": "D4",
+            "type": "optional_pool",
+            "point_text": "Convert temperature to thermodynamic temperature using T = t + 273."
+          },
+          {
+            "mp_id": "D5",
+            "type": "optional_pool",
+            "point_text": "Measure blade length L using a rule or calipers and calculate A = πL^2."
+          },
+          {
+            "mp_id": "D6",
+            "type": "optional_pool",
+            "point_text": "Repeat measurements of L on different blades or at different positions and average L."
+          },
+          {
+            "mp_id": "D7",
+            "type": "optional_pool",
+            "point_text": "Measure v using an anemometer or air-speed meter, or measure atmospheric pressure using a manometer, barometer or pressure gauge."
+          },
+          {
+            "mp_id": "D8",
+            "type": "optional_pool",
+            "point_text": "Wait for steady airflow, steady blade motion or steady current before taking readings."
+          },
+          {
+            "mp_id": "D9",
+            "type": "optional_pool",
+            "point_text": "Determine R using an ohmmeter, or by measuring potential difference and current and calculating R = V / I."
+          },
+          {
+            "mp_id": "D10",
+            "type": "optional_pool",
+            "point_text": "Check that temperature or pressure is constant by measuring several times or before and after the experiment."
+          }
+        ],
+        "additional_detail_max": 6
+      },
+      "target_answer": {
+        "format_name": "exam_style_structured_v1",
+        "response": "v is the independent variable and I is the dependent variable.\nKeep swept area A of the turbine blades, resistance R, atmospheric pressure P and thermodynamic temperature T constant.\n\nLabelled diagram of workable experiment including:\n• fan positioned in line with the turbine so that the blades of the fan and turbine overlap\n• fan on a bench\n• labels for the fan, turbine, blades, terminals and L\n• workable circuit with the resistor and an ammeter connected in series with the turbine terminals.\n\nVary v by changing the fan speed, changing the distance between the fan and turbine, or varying the current or potential difference across the fan.\nMeasure temperature using a thermometer and convert to thermodynamic temperature using T = t + 273.\nMeasure blade length L using a rule or calipers and calculate A = πL^2. Repeat measurements on different blades or at different positions and average L.\nMeasure v using an anemometer or air-speed meter. Determine R using an ohmmeter, or by measuring potential difference and current and calculating R = V / I. Wait for steady airflow, steady blade motion and steady current before taking readings. Check that temperature and pressure remain constant by measuring before and after if needed.\n\nPlot a graph of I^2 against v^3.\nRelationship valid if a straight line passing through the origin is produced.\nQ = (2TR × gradient) / (AP).\n\nSafety:\nKeep away from the moving blades, and use a screen or goggles if needed."
+      },
+      "notes_for_training": {
+        "answer_style_requirement": "Model output should be an exam-style structured planning answer, not just a list of isolated mark points.",
+        "scoring_logic_hint": "defining_problem, methods_of_data_collection and method_of_analysis contain the main structured marks. additional_detail_pool contains optional valid details with a maximum credit of 6.",
+        "extraction_rule_applied": {
+          "diagram_required_removed": true,
+          "defining_problem_p1_trimmed": true,
+          "method_of_analysis_uses_only_main_graph_instruction": true,
+          "method_of_analysis_uses_only_main_validity_statement": true,
+          "keep_line_uses_all_non_constant_relationship_variables_except_iv_dv": true,
+          "diagram_content_grouped_together_in_response": true,
+          "calculation_statements_grouped_with_relevant_measurement_section": true,
+          "gradient_or_y_intercept_only_when_needed": true
+        }
+      }
+    },
+    {
+      "sample_id": "9702_w25_qp_54",
+      "subject": "CAIE A Level Physics 9702",
+      "paper": "Paper 5",
+      "series": "October/November",
+      "year": 2025,
+      "paper_variant": "54",
+      "question_number": 1,
+      "marks": 15,
+      "source_files": {
+        "question_paper": "9702_w25_qp_54.pdf",
+        "mark_scheme": "9702_w25_ms_54.pdf"
+      },
+      "question": {
+        "raw_question_text": "Fig. 1.1 shows a horizontal turntable. Point C is at the centre of the turntable. Point P is a distance r from the centre. Fig. 1.2 shows a side view of a d.c. motor attached to the turntable with a belt. The motor is used to rotate the turntable at frequency f0. The motor is switched off and the turntable continues to rotate at frequency f0. A sphere of adhesive putty of mass m is dropped onto the turntable at point P. The frequency of the turntable is now f. It is suggested that f is related to m by the relationship Kf0 / f = βK + mr^2, where β and K are constants. Plan a laboratory experiment to test the relationship between f and m. Draw a diagram showing the arrangement of your equipment. Explain how the results could be used to determine values for β and K. In your plan you should include: the procedure to be followed, the measurements to be taken, the control of variables, the analysis of the data, any safety precautions to be taken.",
+        "experiment_context": "frequency of a rotating turntable after adhesive putty is dropped on it",
+        "given_relationship": "Kf0 / f = βK + mr^2",
+        "unknown_constants": [
+          "β",
+          "K"
+        ],
+        "focus_points_from_question": [
+          "procedure to be followed",
+          "measurements to be taken",
+          "control of variables",
+          "analysis of the data",
+          "any safety precautions to be taken"
+        ]
+      },
+      "mark_scheme": {
+        "defining_problem": [
+          {
+            "mp_id": "P1",
+            "type": "required",
+            "point_text": "m is the independent variable and f is the dependent variable."
+          },
+          {
+            "mp_id": "P2",
+            "type": "required",
+            "point_text": "Keep f0 constant."
+          }
+        ],
+        "methods_of_data_collection": [
+          {
+            "mp_id": "M1",
+            "type": "required",
+            "point_text": "Labelled diagram of workable experiment including: turntable base and motor on a bench; at least two labels from turntable, motor, belt, C, putty, bench or release mechanism."
+          },
+          {
+            "mp_id": "M2",
+            "type": "required",
+            "point_text": "Workable circuit showing the motor terminals connected to a d.c. supply."
+          },
+          {
+            "mp_id": "M3",
+            "type": "required",
+            "point_text": "Measure time to determine f and f0, and measure m using a top-pan balance."
+          },
+          {
+            "mp_id": "M4",
+            "type": "required",
+            "point_text": "Measure the time t for n revolutions and calculate T = t / n and f = 1 / T, or calculate f = n / t."
+          }
+        ],
+        "method_of_analysis": [
+          {
+            "mp_id": "A1",
+            "type": "required",
+            "point_text": "Plot a graph of 1 / f against m."
+          },
+          {
+            "mp_id": "A2",
+            "type": "required",
+            "point_text": "Relationship valid if a straight line with y-intercept = β / f0 is produced."
+          },
+          {
+            "mp_id": "A3",
+            "type": "required",
+            "point_text": "K = r^2 / (gradient × f0)."
+          },
+          {
+            "mp_id": "A4",
+            "type": "required",
+            "point_text": "β = y-intercept × f0."
+          }
+        ],
+        "additional_detail_pool": [
+          {
+            "mp_id": "D1",
+            "type": "optional_pool",
+            "point_text": "Use screens around the apparatus or cushions to stop the putty leaving the turntable."
+          },
+          {
+            "mp_id": "D2",
+            "type": "optional_pool",
+            "point_text": "Keep r constant."
+          },
+          {
+            "mp_id": "D3",
+            "type": "optional_pool",
+            "point_text": "Measure r using a rule."
+          },
+          {
+            "mp_id": "D4",
+            "type": "optional_pool",
+            "point_text": "Use a stand and fixed point vertically above P so the putty is always dropped above P."
+          },
+          {
+            "mp_id": "D5",
+            "type": "optional_pool",
+            "point_text": "Keep the drop position constant by using a fixed release point above the turntable or by drawing a circle of radius r on the turntable."
+          },
+          {
+            "mp_id": "D6",
+            "type": "optional_pool",
+            "point_text": "Keep f0 constant by adjusting a rheostat to keep the motor current constant or by checking the ammeter reading."
+          },
+          {
+            "mp_id": "D7",
+            "type": "optional_pool",
+            "point_text": "Clamp the motor or the turntable base to the bench."
+          },
+          {
+            "mp_id": "D8",
+            "type": "optional_pool",
+            "point_text": "Lubricate the turntable to reduce friction."
+          },
+          {
+            "mp_id": "D9",
+            "type": "optional_pool",
+            "point_text": "Repeat the experiment for the same value of m and average f."
+          },
+          {
+            "mp_id": "D10",
+            "type": "optional_pool",
+            "point_text": "Relationship valid if a straight line with y-intercept = β / f0 is produced."
+          }
+        ],
+        "additional_detail_max": 6
+      },
+      "target_answer": {
+        "format_name": "exam_style_structured_v1",
+        "response": "m is the independent variable and f is the dependent variable.\nKeep initial frequency f0 and distance r of point P from the centre constant.\n\nLabelled diagram of workable experiment including:\n• turntable base and motor on a bench\n• motor attached to the turntable with a belt\n• labels for the turntable, motor, belt, C, P and the putty\n• workable circuit with the motor terminals connected to a d.c. supply.\n\nMeasure m using a top-pan balance.\nMeasure the time t for n revolutions and calculate T = t / n and f = 1 / T, or calculate f = n / t. Use the same method to determine f0 before the putty is dropped.\nMeasure r using a rule. Use a stand and a fixed release point directly above P, or draw a circle of radius r on the turntable, so the putty is always dropped at the same distance from the centre.\nKeep f0 constant by adjusting a rheostat to keep the motor current constant, or by checking the ammeter reading. Clamp the motor or turntable base to the bench and lubricate the turntable if needed to reduce friction.\n\nRepeat the experiment for the same value of m and average f.\nPlot a graph of 1 / f against m.\nRelationship valid if a straight line with y-intercept = β / f0 is produced.\nK = r^2 / (gradient × f0).\nβ = y-intercept × f0.\n\nSafety:\nUse screens or cushions so the putty cannot leave the turntable."
+      },
+      "notes_for_training": {
+        "answer_style_requirement": "Model output should be an exam-style structured planning answer, not just a list of isolated mark points.",
+        "scoring_logic_hint": "defining_problem, methods_of_data_collection and method_of_analysis contain the main structured marks. additional_detail_pool contains optional valid details with a maximum credit of 6.",
+        "extraction_rule_applied": {
+          "diagram_required_removed": true,
+          "defining_problem_p1_trimmed": true,
+          "method_of_analysis_uses_only_main_graph_instruction": true,
+          "method_of_analysis_uses_only_main_validity_statement": true,
+          "keep_line_uses_all_non_constant_relationship_variables_except_iv_dv": true,
+          "diagram_content_grouped_together_in_response": true,
+          "calculation_statements_grouped_with_relevant_measurement_section": true,
+          "gradient_or_y_intercept_only_when_needed": true
+        }
+      }
+    }
+  ]
+}
